@@ -42,26 +42,26 @@ const EventsForm = () => {
 
                     <div className="col-span-12 col-start-1 sm:col-span-3">
                       <label
-                        htmlFor="accountNumber"
+                        htmlFor="eventName"
                         className="block text-sm font-medium text-gray-700">
                         Event name                      </label>
                       <input
                         required
                         type="text"
                         name="eventName"
-                        id="accountNumber"
+                        id="eventName"
                         className="block w-full mt-1 border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
                       />
                     </div>
 
                     <div className="col-span-12 col-start-1 sm:col-span-3">
-                      <label htmlFor="jobStatus" className="block text-sm font-medium text-gray-700">
-                        Job Status
+                      <label htmlFor="Eventtype" className="block text-sm font-medium text-gray-700">
+                      Event type
                       </label>
                       <select
                         required="required"
-                        id="jobStatus"
-                        name="jobStatus"
+                        id="Eventtype"
+                        name="Eventtype"
                         className="block w-full py-2 mt-1 text-base border-gray-300 rounded-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
                       >
                         <option value="">- - Choose an option - -</option>
@@ -85,8 +85,8 @@ const EventsForm = () => {
                       <input
                         required
                         type="date"
-                        name="dateOfBirth"
-                        id="dateOfBirth"
+                        name="EventStartdate"
+                        id="EventStartdate"
                         className="block w-full mt-1 border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
                       />
                     </div>
@@ -94,15 +94,15 @@ const EventsForm = () => {
 
                     <div className="col-span-12 col-start-1 sm:col-span-3">
                       <label
-                        htmlFor="dateOfBirth"
+                        htmlFor="EventEndate"
                         className="block text-sm font-medium text-gray-700">
                         Event Start date
                       </label>
                       <input
                         required
                         type="date"
-                        name="dateOfBirth"
-                        id="dateOfBirth"
+                        name="EventEndate"
+                        id="EventEndate"
                         className="block w-full mt-1 border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
                       />
                     </div>
@@ -116,8 +116,8 @@ const EventsForm = () => {
                       <input
                         required
                         type="text"
-                        name="emailId"
-                        id="emailId"
+                        name="EventDescription"
+                        id="EventDdescription"
                         className="block w-full mt-1 border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
                       />
                     </div>
@@ -131,8 +131,8 @@ const EventsForm = () => {
                       <input
                         required
                         type="text"
-                        name="permanentAddressLine1"
-                        id="permanentAddressLine1"
+                        name="EvenHhandleBy"
+                        id="EventHandleBy"
                         className="block w-full mt-1 border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
                       />
                     </div>
@@ -146,8 +146,8 @@ const EventsForm = () => {
                       <input
                         required
                         type="text"
-                        name="permanentAddressLine2"
-                        id="permanentAddressLine2"
+                        name="EventOrganisation"
+                        id="EventOrganisation"
                         className="block w-full mt-1 border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
                       />
                     </div>
@@ -162,8 +162,8 @@ const EventsForm = () => {
                       <input
                         required
                         type="text"
-                        name="presentAddressLine1"
-                        id="presentAddressLine1"
+                        name="TotalNumberofSubEvents"
+                        id="TotalNumberofSubEvents"
                         className="block w-full mt-1 border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
                       />
                     </div>
